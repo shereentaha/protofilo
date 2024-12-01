@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 1050px;
+    background-color: palevioletred;
+    color: white;
+    font-family: sans-serif , 'cairo';
+}
+section{
+    position: relative;
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg{
+    position: fixed;
+    background-image: url(OOO.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 0px;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+}
+div button{
+    width: 120px;
+    padding: 8px;
+    font-family:  sans-serif;
+    background-color: white;
+    font-size: 15px;
+    color: black;
+    border: 2px solid white;
+    margin-top: 5px;
+    font-style: bold;
+    border-radius: 22px;
+     cursor: pointer;
+
+}
+div button:hover{
+    color: white;
+    background: pink;
+    border: 2px solid  pink;
+}
+#d1 ,#d2 , #d3 , #d4 ,#d5{
+    width: 400px;
+    height: 330px ;
+    background-color: rgba(0, 0, 0, 0.1);
+border-radius: 100px;
+color: white;
+text-shadow: pink;
+margin-top: 40px;
+display: none;
+}
+
+
+
+#sda{
+    color: blue;
+}
+#sor{
+    width:600px ;
+    height:140px ;
+    position: absolute;
+    top: 80px;
+    left:300px ;
+    border-radius: 45px;
+}
